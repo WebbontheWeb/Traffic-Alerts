@@ -16,12 +16,14 @@ The easiest way to just to launch the django webserver and log into the admin po
 superuser
 
 ### .env File
-A .env file with 
+A .env file with
+```
 APIKEY="your google api key"
 FROMEMAIL="your email to send emails from"
 EMAILPASSWORD="your email's app passwork"
 EMAILPORT="email port"
 EMAILHOST="email host"
+```
 
 ### Running
 Once the database and .env file are up and running, you should just be able to
