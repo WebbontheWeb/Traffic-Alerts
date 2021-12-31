@@ -33,10 +33,10 @@ Once the database and .env file are up and running, you should just be able to
 ## Future Work
 Traffic Alerts is completely functional in it's current state, but I'd certainly like to clean it up a little
 
--Currently it will only call the Maps API on the day of the trip, but if it's calling it every minute that can still 
+- Currently it will only call the Maps API on the day of the trip, but if it's calling it every minute that can still 
 add up pretty quickly: adding an algorithim that limits the calls to only what's actually nessesary would make this much more practical to deploy 
 
--Find a better way to have it consistantly running: currently I'm just using Honcho to run it continuously and having it sleep for 60 seconds
+- Find a better way to have it consistantly running: currently I'm just using Honcho to run it continuously and having it sleep for 60 seconds
 between runs which works but it's the most elegant solution
 
--Create a better way of inputting into the database: using the django's webserver or inputting them manually isn't ideal
+- Create a better way of inputting into the database: using the django's webserver or inputting them manually isn't ideal
