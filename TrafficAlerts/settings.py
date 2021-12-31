@@ -20,7 +20,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
+# SECURITY WARNING: keep the secret key used in production secret! 
+# doesn't matter as long as I'm not deploying this for other people to use 
 SECRET_KEY = 'django-insecure-1hs6wbk*mo=dr@7=!(wi2moayy*11!_kqj2m=(4i8p-yk8q1q6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -134,5 +135,3 @@ EMAIL_HOST_USER = os.environ['FROMEMAIL']
 EMAIL_HOST_PASSWORD = os.environ['EMAILPASSWORD']
 
 EMAIL_USE_TLS = True
-
-
