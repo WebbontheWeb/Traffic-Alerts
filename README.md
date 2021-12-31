@@ -12,7 +12,7 @@ The dockerfile is included so if you launch Traffic Alerts in Visual Studio Code
 it should automatically install what's needed
 
 ### Adding to Database
-The easiest way to just to launch the django webserver and log into the admin portal, which will require making a
+The easiest way to add to the database is just to launch the django webserver and log into the admin portal, which will require making a
 superuser
 
 ### .env File
